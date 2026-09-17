@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=def-rieseber
+#SBATCH --account=your-account
 #SBATCH --time=0-18:00
 #SBATCH --ntasks=1
 #SBATCH --mem=80G
