@@ -1,0 +1,15 @@
+// Priors and rules file
+// *********************
+
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max 
+//all Ns are in number of haploid individuals
+1  Spain     logunif     100  1000000   output
+1  France     logunif     100  1000000   output
+1  Belgium     logunif     100  1000000   output
+1  Tdiv         unif     10   10000     output
+0  RESIZE       unif     0.1  10     output
+
+[COMPLEX PARAMETERS]
+//Assume an island haploid population size of 1000 for all islands
+1 AncSize = RESIZE*Spain
