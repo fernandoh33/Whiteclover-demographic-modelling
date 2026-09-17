@@ -7,7 +7,7 @@
 1  Spain     logunif     100  1000000   output
 1  France     logunif     100  1000000   output
 1  UK     logunif     100  1000000   output
-1  Tdiv2         unif     400   10000     output
+1  Tdiv2         unif     10   10000     output
 1  Tplus         unif     10  10000     hide
 0  RESIZE       unif     0.1  10     hide
 
